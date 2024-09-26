@@ -1,0 +1,22 @@
+{
+  "name": "0x03-queuing_system_in_js",
+  "version": "1.0.0",
+  "description": "A project for using Redis with Node.js",
+  "main": "0-redis_client.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node --presets @babel/preset-env 0-redis_client.js"
+  },
+  "dependencies": {
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/node": "^7.25.0",
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
